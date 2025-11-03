@@ -45,7 +45,7 @@ initial begin
     wait(rdy == 1); 
     #20;
     
-    bin_d_in = 12'9876;  
+    bin_d_in = 12'd3598;  
     en = 1;
     #10;
     en = 0;
